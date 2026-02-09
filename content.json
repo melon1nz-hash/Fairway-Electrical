@@ -1,0 +1,68 @@
+{
+  "services": [
+    {
+      "title": "Commercial Electrical",
+      "description": "Reliable electrical solutions for businesses, offices, and retail spaces.",
+      "icon": "building"
+    },
+    {
+      "title": "Fault Finding & Repairs",
+      "description": "Quick and accurate diagnosis of electrical issues and repairs.",
+      "icon": "zap"
+    },
+    {
+      "title": "Lighting & LED Upgrades",
+      "description": "Energy-efficient lighting design and installation for modern homes.",
+      "icon": "lightbulb"
+    },
+    {
+      "title": "New Builds & Renovations",
+      "description": "Expert wiring for new constructions and home improvement projects.",
+      "icon": "wrench"
+    },
+    {
+      "title": "Residential Electrical",
+      "description": "Complete home wiring, renovations, and maintenance for your property.",
+      "icon": "home"
+    },
+    {
+      "title": "Switchboards & Safety",
+      "description": "Board upgrades, safety inspections, and compliance checks.",
+      "icon": "shield"
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Modern Kitchen Lighting",
+      "category": "LED Integration • Renovation",
+      "image": "/images/portfolio-1.jpg",
+      "description": "LED integration for a kitchen renovation on the Hibiscus Coast."
+    },
+    {
+      "title": "Switchboard Upgrade",
+      "category": "Commercial • Safety Compliance",
+      "image": "/images/portfolio-2.jpg",
+      "description": "Commercial switchboard upgrade for safety compliance."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David & Lisa",
+      "location": "Silverdale",
+      "quote": "We used Fairway for our kitchen renovation. Excellent communication and quality workmanship. Will definitely use again.",
+      "rating": 5
+    },
+    {
+      "name": "Mike Thompson",
+      "location": "Red Beach",
+      "quote": "Prompt service when we lost power. The electrician was friendly and fixed the fault quickly. Great local service.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah Jenkins",
+      "location": "Orewa",
+      "quote": "Fairway Electrical transformed our home lighting. Professional, tidy, and great advice on LED options. Highly recommend!",
+      "rating": 5
+    }
+  ]
+}

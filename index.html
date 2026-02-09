@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fairway Electrical | Hibiscus Coast Electricians</title>
+    <meta name="description" content="Reliable residential and commercial electrical services on the Hibiscus Coast, New Zealand. Fully qualified and licensed electricians.">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:title" content="Fairway Electrical">
+    <meta property="og:description" content="Reliable residential and commercial electrical services on the Hibiscus Coast, New Zealand.">
+    <meta property="og:image" content="/images/hero.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Lucide via CDN for static site) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i data-lucide="zap"></i>
+                </div>
+                <span>Fairway<span class="text-accent">Electrical</span></span>
+            </a>
+
+            <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-toggle">
+                <i data-lucide="menu" id="menu-icon"></i>
+            </button>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="/images/hero.jpg" alt="Hibiscus Coast Landscape">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h2 class="hero-subtitle">Master Electricians</h2>
+            <h1 class="hero-title">Reliable Electrical Services<br>on the Hibiscus Coast</h1>
+            <p class="hero-text">Professional, safe, and high-quality electrical solutions for your home and business. Serving the coast with pride and expertise.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary btn-lg">Get a Free Quote</a>
+                <a href="#services" class="btn btn-outline btn-lg">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Expertise</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">From small repairs to major installations, we deliver comprehensive electrical services tailored to your needs.</p>
+            </div>
+
+            <div id="services-grid" class="services-grid"><!-- filled by main.js from content.json --></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper">
+                    <div class="about-image">
+                        <img src="/images/services.jpg" alt="Professional Electrician">
+                    </div>
+                    <div class="about-decoration"></div>
+                </div>
+                
+                <div class="about-content">
+                    <h4 class="small-heading">About Us</h4>
+                    <h2 class="section-title align-left">Your Local Electrical Experts</h2>
+                    <p>Fairway Electrical is a locally owned and operated business serving the beautiful Hibiscus Coast. With years of experience in the industry, we pride ourselves on delivering top-tier electrical workmanship with a friendly, local touch.</p>
+                    
+                    <ul class="feature-list">
+                        <li>
+                            <i data-lucide="check-circle"></i>
+                            <span>Fully qualified and registered electricians</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check-circle"></i>
+                            <span>Locally based on the Hibiscus Coast</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check-circle"></i>
+                            <span>Commitment to safety and regulations</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check-circle"></i>
+                            <span>Transparent pricing with no hidden costs</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section bg-dark text-white">
+        <div class="container">
+            <div class="portfolio-header">
+                <div>
+                    <h2 class="section-title text-white align-left">Recent Projects</h2>
+                    <p class="section-desc text-white-dim align-left">Take a look at some of our recent electrical installations and renovation projects across the coast.</p>
+                </div>
+            </div>
+
+            <div id="portfolio-grid" class="portfolio-grid"><!-- filled by main.js from content.json --></div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            
+            <div id="testimonials-grid" class="testimonials-grid"><!-- filled by main.js from content.json --></div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h4 class="small-heading">Get in Touch</h4>
+                    <h2 class="section-title align-left">Ready for a Quote?</h2>
+                    <p>Contact us today for a free, no-obligation quote. Whether it's a small repair or a large project, we're here to help.</p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon"><i data-lucide="phone"></i></div>
+                            <div>
+                                <h5>Phone</h5>
+                                <p>0800 FAIRWAY</p>
+                                <span class="method-detail">Mon-Fri: 7am - 5pm</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon"><i data-lucide="mail"></i></div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>info@fairwayelectrical.co.nz</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon"><i data-lucide="map-pin"></i></div>
+                            <div>
+                                <h5>Service Area</h5>
+                                <p>Hibiscus Coast & North Shore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form name="contact" method="POST" data-netlify="true" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="email@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="021 123 456" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="logo-icon small"><i data-lucide="zap"></i></div>
+                        <span>Fairway<span class="text-accent">Electrical</span></span>
+                    </div>
+                    <p class="footer-text">Your trusted local electricians on the Hibiscus Coast. Delivering quality, safety, and reliability for over 10 years.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Residential</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Renovations</a></li>
+                        <li><a href="#">Emergency Repairs</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <p class="footer-text">Subscribe to our newsletter for safety tips and offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email address">
+                        <button><i data-lucide="arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Fairway Electrical. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/main.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
