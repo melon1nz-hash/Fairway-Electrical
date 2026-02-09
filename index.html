@@ -6,6 +6,8 @@
     <title>Fairway Electrical | Hibiscus Coast Electricians</title>
     <meta name="description" content="Reliable residential and commercial electrical services on the Hibiscus Coast, New Zealand. Fully qualified and licensed electricians.">
     
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
     <!-- Open Graph / Social -->
     <meta property="og:title" content="Fairway Electrical">
     <meta property="og:description" content="Reliable residential and commercial electrical services on the Hibiscus Coast, New Zealand.">
@@ -265,5 +267,16 @@
         // Initialize Lucide Icons
         lucide.createIcons();
     </script>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
