@@ -8,8 +8,8 @@ backend:
 # local_backend: true   # Uncomment to use npx decap-server for local dev
 
 # Where uploaded media is stored (relative to repo root). Your site uses /images.
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder: "images"
+public_folder: "/images"
 
 # Optional: custom commit messages
 # slug: "{{slug}}" and similar are available in commit message templates.
